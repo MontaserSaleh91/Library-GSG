@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Library</title>
+</head>
+<body>
+    <div class='library'>
+        <h1>LIBRARY</h1>
+    </div>
+    <br> <br>
+    <div class="container">
+        <form  onsubmit="event.preventDefault(); uploadData();">
+            <label for="title">Title:</label> 
+            <input type="text" id="title" name="title" placeholder="Book title" required>
+            <label for="author">Author:</label>
+            <input type="text" id="author" name="author" placeholder="Author name" required>
+            <label for="img">Book image URL:</label>
+            <input id="image" type="text" placeholder="https://image.jpg" name="image" required>
+            <button type="submit" class="submit">Add New Book</button>
+          </form> 
+    </div>
+      <br>
+    <div id="row">
+        <div id='library'></div>
+        <div id='library'></div>
+        <div id='library'></div>
+    </div>
+
+    <footer>
+        
+        <a href="https://github.com/MontaserSaleh91"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://www.freecodecamp.org/montaser-alfrookh"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+        <a href="https://www.codewars.com/users/MontaserSaleh91"><img src="codewars.png" class="codewars" alt=""></a>
+
+        <p>Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Montaser Alfrookh<br>
+            <a href="mailto:montaser.alfrookh91@gmail.com">montaser.alfrookh91@gmail.com</a></p>
+        
+      </footer>
+        
+ <script src='script.js'></script>
+</body>
+</html>
